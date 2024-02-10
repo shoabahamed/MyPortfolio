@@ -5,5 +5,5 @@ function openMenu(){
 }
 
 function closeMenu(){
-  sideMenu.style.right = "-200px";
+  sideMenu.style.right = "-500px";
 }
