@@ -36,4 +36,16 @@
     display: block;
   }
 
+
+  .about-me-text{
+    font-size: 0.8rem;
+  }
+
+  .second-portfolio-image{
+    width: 200px;
+    height: 300px;
+  }
+
+
+
 }
