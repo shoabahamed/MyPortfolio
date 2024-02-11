@@ -14,10 +14,13 @@
 
 
 .logo{
-  cursor: default;
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: 'Tangerine', cursive;
+  cursor: pointer;
 }
+
+
 
 .nav-bar ul{
   display: flex;
@@ -47,7 +50,7 @@ nav ul li a::after{
 
 nav ul li a:hover::after{
   width:100%;
-  /* box-shadow: inset 2px 2px 5px #000; */
+  box-shadow: inset 2px 2px 5px #000;
 }
 
 
@@ -141,28 +144,29 @@ nav ul li a:hover::after{
 }
 
 .fa-linkedin{
-  color: rgb(37, 37, 192);
+  color: #0077B5;
   transition: all 0.2s ease-in-out;
 }
 
 
 .fa-kaggle{
-  color: rgb(58, 58, 197);
+  color: #3498db;
   transition: all 0.2s ease-in-out;
 }
 
 
 .fa-facebook{
-  color: rgb(69, 69, 211);
+  color: #1877F2;
   transition: all 0.2s ease-in-out;
 }
 
 .fa-github{
+  color: #6A0DAD;
   transition: all 0.2s ease-in-out;
 }
 
 .fa-twitter{
-  color: rgb(37, 37, 192);
+  color: #1DA1F2;
   transition: all 0.2s ease-in-out;
   padding: 0px;
 }
