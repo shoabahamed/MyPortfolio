@@ -1,0 +1,108 @@
+#profile-main{
+  margin: 30px 0;
+}
+
+#profile-main .title{
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+  height: 10vh;
+}
+
+#profile-main .profile-info-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 3rem;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  align-items: center;
+}
+
+
+.highlight{
+  font-weight:600;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.highlight a{
+  text-decoration: none;
+  color: #3498db;
+}
+
+.profile-info-container .experience, .education{
+  text-align: center;
+}
+
+.experience, .education, .skills{
+  transition: all 0.1s ease-in-out;
+}
+
+.experience:hover, .education:hover, .skills:hover{
+  transform: translateY(-5px);
+}
+
+.title-sub{
+  font-weight: 600;
+}
+
+.experience .info p, .education .info p{
+  margin-bottom: 1rem;
+}
+
+.experience .info, .education .info{
+  font-size: 0.8em;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.checkmark{
+  width: 30px;
+  height: 30px;
+}
+
+.icon-checkmark{
+  font-size: 22px;
+}
+
+.skill-info p{
+  color: rgb(85, 85, 85);
+  font-size: 0.6rem;
+}
+
+.skill-info h3{
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.article-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  justify-content: space-around;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  row-gap: 1.5rem;
+}
+
+.article-container .skill-info{
+  display: flex;
+  column-gap: 0.5rem;
+  align-items: center;
+}
+
+
+.profile-info-container legend{
+  text-align: center;
+  color: rgb(85, 85, 85);
+  font-weight: 800;
+}
+
+.profile-info-container fieldset{
+  border: 1px solid #666;
+  border-radius: 5%;
+  box-shadow: 0 0 5px #666;
+}
+
+
