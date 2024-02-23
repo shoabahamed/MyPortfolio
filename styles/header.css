@@ -128,7 +128,7 @@ nav ul li a:hover::after{
 }
 
 .buttons .btn:hover{
-  background: rgb(49, 48, 48);
+  background: rgb(10, 7, 7);
   color: white;
 }
 
