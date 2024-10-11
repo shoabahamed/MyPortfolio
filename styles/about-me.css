@@ -1,5 +1,6 @@
 #about{
   margin: 30px 0;
+  background-color: #E0F2F1; 
 }
 
 #about .title{
@@ -7,7 +8,7 @@
   font-size: 2em;
   font-weight: 600;
   height: 10%;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .about-me-container{
@@ -30,9 +31,3 @@
   width: 250px;
   height: 400px;
 }
-
-
-
-
-
-

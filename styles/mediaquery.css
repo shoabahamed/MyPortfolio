@@ -3,11 +3,12 @@
 }
 
 @media only screen and (max-width: 500px){
-  /* .about-me-container{
-    margin-bottom: 20vh;
-  } */
   .contact-container{
     flex-direction: column;
+  }
+
+  .contact-container .left-col{
+    align-items: start;
   }
 
 }
@@ -21,7 +22,7 @@
   }
 
   nav ul{
-    background: rgb(238, 228, 228);
+    background: #87CEEB;
     position: fixed;
     top: 0;
     right:-500px;
@@ -57,4 +58,13 @@
   }
 
 
+}
+
+@media only screen and (min-width: 1000px){
+
+  .profile-main-img-container{
+    width: 350px; 
+    height: 350px;
+  }
+  
 }

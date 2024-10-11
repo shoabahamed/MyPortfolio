@@ -1,12 +1,12 @@
 #profile-main{
-  margin: 30px 0;
+  margin: 40px 0;
 }
 
 #profile-main .title{
   text-align: center;
   font-size: 2em;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 #profile-main .profile-info-container{
@@ -100,9 +100,20 @@
 }
 
 .profile-info-container fieldset{
-  border: 1px solid #666;
-  border-radius: 5%;
-  box-shadow: 0 0 5px #666;
+  border:none;
+  border-radius: 5%; 
+  background-color: #EAF6FF; 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+  transition: box-shadow 0.3s ease; 
+  border: 1px solid #448a86;;
+}
+
+.experience:hover fieldset, 
+.education:hover fieldset, 
+.skills:hover fieldset{
+  transform: translateY(-5px);
+  border: 1px solid rgb(26, 26, 26);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 

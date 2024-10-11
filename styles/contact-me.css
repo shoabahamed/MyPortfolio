@@ -1,5 +1,5 @@
 #contact-me{
-  margin: 30px 0;
+  margin: 40px 0;
   margin-right: 1.3rem;
   margin-left: 1.3rem;
 }
@@ -7,7 +7,7 @@
   text-align: center;
   font-size: 2em;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .contact-container{
@@ -15,7 +15,6 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  /* flex-wrap: wrap; */
 }
 
 
@@ -23,6 +22,9 @@
 .contact-container .left-col{
   flex-basis: 35%;
   margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .contact-container .right-col{
@@ -83,41 +85,46 @@
 
 /* right section */
 
+.gmail-me-text{
+  margin-bottom: 1.5rem;
+}
+
 .right-col .messageForm{
   width: 100%;
 	display: flex;
   flex-direction: column;
 }
 
+
+
 .input-field{
   width: 100%;
   margin-bottom: 1.5rem;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #448a86;
   border-radius: 5px;
 }
 
 .input-field:focus {
   outline: none;
-  border-color: #6e6eff;
+  border-color: rgb(26, 26, 26);
 }
 
 
 .send-btn{
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: 0.1rem solid #1565C0; 
   font-weight: 600;
-  color: rgb(85, 85, 85);
+  color: #1565C0;
   transition: all 300ms ease;
   padding: 0.8rem;
-  /* width: 10rem; */
   border-radius: 2rem;
   cursor: pointer;
   align-self: center;
 }
 
 .send-btn:hover{
-  background: rgb(10, 7, 7);
-  color: white;
+  background: #1565C0; 
+  color: #E0F2F1; 
 }
 
 /* footer */
@@ -132,5 +139,24 @@
   color: #61b752;
   display: block;
   visibility: hidden;
-  transition: transition: all 0.3s ease-in-out;;
+  transition: all 0.3s ease-in-out;
 }
+
+#footer button {
+  border: 0.1rem solid #1565C0; 
+  color: #1565C0;
+  padding: 0.5rem 1rem;
+  border-radius: 3%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#footer button:hover {
+  background: #1565C0; 
+  color: #E0F2F1; 
+}
+
+#footer a {
+  text-decoration: none;
+}
+

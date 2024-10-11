@@ -1,9 +1,4 @@
 /* HEADER SECTION */
-/* #header{
-  width: 100%;
-  height: 100%;
-} */
-
 .navigation{
   height: 17vh;
   display: flex;
@@ -19,7 +14,6 @@
   font-family: 'Tangerine', cursive;
   cursor: pointer;
 }
-
 
 
 .nav-bar ul{
@@ -41,18 +35,20 @@ nav ul li a::after{
   content: '';
   width: 0;
   height:2px;
-  background:#ff004f;
+  background: #1565C0; 
   position: absolute;
   left:0;
   bottom:-8px;
   transition: all 0.3s ease-in-out;
 }
 
+nav ul li a:hover {
+  color: rgb(86, 86, 86);
+}
 nav ul li a:hover::after{
   width:100%;
   box-shadow: inset 2px 2px 5px #000;
 }
-
 
 
 /* -------------------------profile--------------------- */
@@ -71,7 +67,6 @@ nav ul li a:hover::after{
 .profile-main-img-container{
   width: 250px; 
   height: 250px;
-  /* has to be fixed for short screens */
 }
 
 .profile .profile-main-img-container img{
@@ -116,10 +111,10 @@ nav ul li a:hover::after{
   column-gap: 1rem;
 }
 
-.buttons .btn{
-  border: rgb(53, 53, 53) 0.1rem solid;
+.buttons .btn {
+  border: 0.1rem solid #1565C0; 
   font-weight: 600;
-  color: rgb(85, 85, 85);
+  color: #1565C0;
   transition: all 300ms ease;
   padding: 0.8rem;
   width: 8rem;
@@ -127,10 +122,11 @@ nav ul li a:hover::after{
   cursor: pointer;
 }
 
-.buttons .btn:hover{
-  background: rgb(10, 7, 7);
-  color: white;
+.buttons .btn:hover {
+  background: #1565C0; 
+  color: #E0F2F1; 
 }
+
 
 .social-links{
   display: flex;
@@ -174,3 +170,4 @@ nav ul li a:hover::after{
 .social-links i:hover{
   transform: translateY(-5px) scale(1.2);
 }
+
