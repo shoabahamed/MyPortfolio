@@ -1,6 +1,8 @@
-# University Management Website
+# My Portfolio
 
 This project is a personal portfolio website built using vanilla HTML, CSS, and JavaScript. The goal of this website is to showcase my skills, projects, and experience. Designed with simplicity and performance in mind, this portfolio provides an interactive and responsive user experience across various devices.
+
+Visit my portfolio [here](https://shoabahamed.github.io/MyPortfolio/)
 
 # CREDITS
 
