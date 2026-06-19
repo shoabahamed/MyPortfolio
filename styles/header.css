@@ -115,6 +115,8 @@ nav ul li a:hover::after{
   border: 0.1rem solid #1565C0; 
   font-weight: 600;
   color: #1565C0;
+  text-decoration: none;
+  display: inline-block;
   transition: all 300ms ease;
   padding: 0.8rem;
   width: 8rem;

@@ -28,7 +28,7 @@
           <li><a href="#about">About Me</a></li>
           <li><a href="#profile-main">Profile</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact-me">Contact</a></li>
           <i class="fas fa-times" onclick="closeMenu();"></i>
         </ul>
         <i class="fas fa-bars" onclick="openMenu();"></i>
@@ -48,8 +48,8 @@
         </div>
 
         <div class="buttons">
-          <button class="btn" onclick="location.href = './assets/CV.txt'">Download CV</button>
-          <button class="btn" href="#contact">Contact Me</button>
+          <button class="btn" onclick="location.href = './assets/CV.pdf'">Download CV</button>
+          <a class="btn" href="#contact-me">Contact Me</a>
         </div>
 
         <div class="social-links">
@@ -206,6 +206,15 @@
     <div class="title">Projects</div>
       <div class="work-list">
         <div class="work">
+          <img src="assets/work-1.png">
+          <h3 class="project-title">ImageCraft</h3>
+          <div class="layer">
+            <p>A real time Web based Image Editing website which leverages gpu for faster image editing using fabric js, React and Flask
+            </p>
+            <a href="https://www.kaggle.com/code/shoabahamed/binary-classification-with-pytorch"><button class="btn-more">See More</button></a>
+          </div>
+        </div>
+        <div class="work">
           <img src="assets/work-4.jpg">
           <h3 class="project-title">University Website</h3>
           <div class="layer">
@@ -224,32 +233,15 @@
           </div>
         </div>
         <div class="work">
-          <img src="assets/work-1.jpg">
-          <h3 class="project-title">Movie Data</h3>
+          <img src="assets/work-4.png">
+          <h3 class="project-title">3D Mosque</h3>
           <div class="layer">
-            <p>A personal project to make database of WARNER BROS FILMS(2010-2019) datas by scrapping wikipedia with beautifulsoup library
+            <p>An interactive, real-time 3D mosque scene built from scratch with OpenGL. The project demonstrates modular geometry construction from reusable primitives, shading, texture mapping and Mesh Generation.
             </p>
             <a href="https://github.com/shoabahamed/warner_bros_films_database-2010to2019"><button class="btn-more">See More</button></a>
           </div>
         </div>
-        <div class="work">
-          <img src="assets/work-2.jpg">
-          <h3 class="project-title">Bike Sharing</h3>
-          <div class="layer">
-            <p>A case study for Google Data Analytics Professional Certificate. I completed the first case Study How Does a Bike-Share Navigate Speedy Success
-            </p>
-            <a href="https://github.com/shoabahamed/Google-Data-Analytics-Capstone-Complete-a-Case-Study"><button class="btn-more">See More</button></a>
-          </div>
-        </div>
-        <div class="work">
-          <img src="assets/work-3.jpg">
-          <h3 class="project-title">Tweet Disaster</h3>
-          <div class="layer">
-            <p>A geeting started competition from kaggle. Here I build a neural network model using pytorch which can classify whether a person’s words are actually announcing a disaster
-            </p>
-            <a href="https://www.kaggle.com/code/shoabahamed/binary-classification-with-pytorch"><button class="btn-more">See More</button></a>
-          </div>
-        </div>
+
       </div>
   </section>
 
